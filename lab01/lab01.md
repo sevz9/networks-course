@@ -36,7 +36,7 @@
 6. Сколько байтов контента возвращается вашему браузеру?
    - 128
   
-![alt text]("lab01/IMAGE 2025-02-22 13:45:07.jpg")
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab01/IMAGE%202025-02-22%2013%3A45%3A07.jpg)
 
 ## Задание 2. HTTP CONDITIONAL GET/response (2 балла)
 Большинство веб-браузеров выполняют кэширование объектов и, таким образом, выполняют
