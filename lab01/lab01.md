@@ -35,6 +35,8 @@
    - Sat, 22 Feb 2025 09:59:40 GMT
 6. Сколько байтов контента возвращается вашему браузеру?
    - 128
+  
+![alt text]("IMAGE 2025-02-22 13:45:07.jpg")
 
 ## Задание 2. HTTP CONDITIONAL GET/response (2 балла)
 Большинство веб-браузеров выполняют кэширование объектов и, таким образом, выполняют
@@ -111,9 +113,9 @@
 #### Вопросы
 1. Сколько HTTP GET запросов было отправлено вашим браузером? На какие интернет-адреса были отправлены эти GET-запросы?
    - 5
-   - http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html ; 128.119.245.12
-   - http://gaia.cs.umass.edu/pearson.png ; 128.119.245.12
-   - http://kurose.cslash.net/8E_cover_small.jpg ; 178.79.137.164
+   - http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html 
+   - http://gaia.cs.umass.edu/pearson.png 
+   - http://kurose.cslash.net/8E_cover_small.jpg 
 2. Можете ли вы сказать, загрузил ли ваш браузер два изображения последовательно или
    они были загружены с веб-сайтов параллельно? Объясните.
    - последовательно, так как второй get был отправлен после ответа на первый
