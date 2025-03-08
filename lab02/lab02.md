@@ -62,7 +62,23 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-todo
+
+Добавить товар 
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/1.jpg)
+
+Достать товар по id
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/2.jpg)
+
+Обновить описание
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/4.jpg)
+
+Удалить товар + возвращение ошибок
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/5.jpg)
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/6.jpg)
+
+Вывести все товары
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/7.jpg)
+![alt text](https://github.com/sevz9/networks-course/blob/master/lab02/images/8.jpg)
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
