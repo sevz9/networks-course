@@ -15,25 +15,25 @@ def send_email(subject, message, message_format="txt"):
         message_format: Формат письма ('txt' или 'html')
         sender_email: Email отправителя
     """
-    # Настройка сообщения
+    
     recipient_email = "vsevolod9006@gmail.com"
     msg = MIMEMultipart('alternative')
     msg['From'] = "vsevolod9006@gmail.com"
     msg['To'] =  "vsevolod9006@gmail.com"
     msg['Subject'] = subject
     
-    # Добавление содержимого в зависимости от формата
+   
     if message_format.lower() == "html":
         msg.attach(MIMEText(message, 'html'))
     else:
         msg.attach(MIMEText(message, 'plain'))
     
     try:
-        # Запрос пароля от почты отправителя
+       
         password = ""
         sender_email = "vsevolod9006@gmail.com"
         
-        # Соединение с SMTP-сервером (для Gmail)
+       
         with smtplib.SMTP("smtp.gmail.com", 587) as server:
             server.starttls()
             server.login(sender_email, password)
@@ -54,7 +54,7 @@ def main():
     
     args = parser.parse_args()
     
-    # Если сообщение не указано в аргументах, запросить его у пользователя
+    
     message = args.message
     if not message:
         if args.format == 'html':
